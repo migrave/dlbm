@@ -1,4 +1,4 @@
-# dl_behaviour_model_multiclass
+# dlbm_multiclass
 This repository contains software for evaluation of four vision-only behaviour models on the multiclass MigrAVE dataset (diff2, diff3, feedback).
 The evaluated models are:
 * DLC1 - Deep Learning Classifier with an input of one frame and an activity vector

@@ -1,4 +1,4 @@
-# dl_behaviour_model_binary
+# dlbm_binary
 This repository contains software for evaluation of four vision-only behaviour models on the binary MigrAVE dataset (feedback/no feedback).
 The evaluated models are:
 * DLC1 - Deep Learning Classifier with an input of one frame
