@@ -24,7 +24,7 @@ import rospy
 import numpy as np
 from sensor_msgs.msg import Image
 import cv2
-from migrave_deep_behaviour_model.msg import GameAction
+from dlbm_robot.msg import GameAction
 from migrave_ros_msgs.msg import GameActivity, GamePerformance
 import torch
 from std_msgs.msg import Int32, Bool
