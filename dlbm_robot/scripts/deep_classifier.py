@@ -31,16 +31,11 @@ class DeepClassifier:
         self.device = cfg.device  # torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.state_dim = cfg.proc_frame_size  # State dimensionality 84x84.
         self.state_size_data = cfg.state_size_data
-        self.minibatch_size = cfg.minibatch_size
-        self.learning_rate = cfg.learning_rate
         self.validation = validation
-        self.epochs_num = cfg.epochs
-        self.epoch_end = self.epochs_num
         self.epoch_start = 0
         self.input_state_size = input_state_size
         self.input_modalities = input_modalities
         self.classes_num = cfg.noutputs
-        self.conf_matrix_labels = cfg.labels
         self.predictions = None
 
         nstates = cfg.nstates_full
