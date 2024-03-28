@@ -3,20 +3,20 @@
 '''
     Copyright 2023 by Michał Stolarz <michal.stolarz@h-brs.de>
 
-    This file is part of data_preprocessing.
+    This file is part of dlbm_data_preprocessing.
     It is used for extracting zoomed-in frames from the raw video data collected during the study
     where participants played sequence learning game.
 
-    data_preprocessing is free software: you can redistribute it and/or modify
+    dlbm_data_preprocessing is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
-    data_preprocessing is distributed in the hope that it will be useful,
+    dlbm_data_preprocessing is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
     GNU Affero General Public License for more details.
     You should have received a copy of the GNU Affero General Public License
-    along with data_preprocessing. If not, see <http://www.gnu.org/licenses/>.
+    along with dlbm_data_preprocessing. If not, see <http://www.gnu.org/licenses/>.
 '''
 
 import json
